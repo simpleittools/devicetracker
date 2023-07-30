@@ -21,7 +21,10 @@ import {ref, watch, defineProps, defineEmits} from "vue";
 </script>
 
 <template>
-  <label class="radio">
+  <label
+    class="radio"
+    :for="id"
+  >
     <input
       type="radio"
       :id="id"
