@@ -33,9 +33,9 @@
       />
     </div>
 
-    <div v-if="clientsToShow == 'active'">Active Clients List</div>
-    <div v-else-if="clientsToShow =='inactive'">Inactive Clients List</div>
-    <div v-else-if="clientsToShow == 'all'">All Clients List</div>
+    <div v-if="clientsToShow === 'active'">Active Clients List</div>
+    <div v-else-if="clientsToShow ==='inactive'">Inactive Clients List</div>
+    <div v-else-if="clientsToShow === 'all'">All Clients List</div>
 
     <div class="columns">
       <div class="column is-9">
