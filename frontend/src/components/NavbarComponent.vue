@@ -65,8 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
           </a>
 
           <div class="navbar-dropdown">
-            <router-link to="/" class="navbar-item">Clients</router-link>
-            <router-link to="/" class="navbar-item">Add Client</router-link>
+            <router-link :to="{name: 'ClientListView'}" class="navbar-item">Clients</router-link>
+            <router-link :to="{name: 'ClientAddView'}" class="navbar-item">Add Client</router-link>
           </div>
         </div>
       </div>
